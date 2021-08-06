@@ -23,7 +23,7 @@ public class seguroVejez extends Seguro implements Pension{
 
     @Override
     public void pensionFinal(float pensionBase) {
-        pensionFinal = (float) (pensionBase * 0.15);
+        pensionFinal = (float) (pensionBase+ (pensionBase * 0.15));
     }      
     
 }
